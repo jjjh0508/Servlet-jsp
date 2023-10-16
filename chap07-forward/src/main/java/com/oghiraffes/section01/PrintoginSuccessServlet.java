@@ -13,9 +13,9 @@ public class PrintoginSuccessServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         /* forward 받은 서블릿에서도 요청 방식이 get이면 doGet메소드, 요청 방식이 post이면 doPost메소드를 호출한다.
-         *  보내준 서블릿에서 reqeust에 전달 정보를 담았으므로 해당 서블릿에 사요하기 위해 다시 reqeust에서 꺼내온다.
+         *  보내준 서블릿에서 request 전달 정보를 담았으므로 해당 서블릿에 사요하기 위해 다시 request에서 꺼내온다.
          *
-         *  forward할 때 전달할 reqeust와 response의 모든 정보를 이용해 새로운 request, response를 만들고
+         *  forward할 때 전달할 request response의 모든 정보를 이용해 새로운 request, response를 만들고
          *  그 정보를 이용해 http 메소드에 맞는 doGet 혹은 doPost를 요청하는 방식이다.
          *  깊은 복사를 이용해 값을 그대로 복사했기 때문에 내부에 존재하는 헤더 정보나 인스턴스는 그대로 유지하고 있다. */
         String userId = (String) req.getAttribute("userId");
@@ -43,7 +43,7 @@ public class PrintoginSuccessServlet extends HttpServlet {
         out.close();
 
         /* 기본적으로 변수의 스코프는 메소드(= 해당 페이지) 이기 때문에 다른 페이지(=서블릿)로 데이터를 공유 할 수 없다.
-        하지만 forward 방식은 reqeust와 response를 포함하여 위임하므로 request에 정보를 저장하여 forward하면
+        하지만 forward 방식은 request와 response를 포함하여 위임하므로 request에 정보를 저장하여 forward하면
         위임 받은 서블릿 에서도 위임한 서블릿의 정보를 공유할 수 있다.
         forward 받은 서블릿의 존재를 클라이언트가 알 필요가 없기 때문에 url 자체는 변경되지 않는다.
         (사용자는 결과 화면만 제대로 받으면 되기 떄문이다.)

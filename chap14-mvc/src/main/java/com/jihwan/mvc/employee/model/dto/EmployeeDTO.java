@@ -8,7 +8,7 @@ public class EmployeeDTO {
     public EmployeeDTO() {
     }
 
-    public EmployeeDTO(String empId, String empName, String empNo, String email, String deptCode, String salLevel, int salary, double bonus, String managerId, Date hireDate, Date entDate, String entYn, String jobCode) {
+    public EmployeeDTO(String empId, String empName, String empNo, String email, String deptCode, String salLevel, int salary, double bonus, String managerId, Date hireDate, Date entDate, String entYn, String jobCode, String phone) {
         this.empId = empId;
         this.empName = empName;
         this.empNo = empNo;
@@ -22,6 +22,7 @@ public class EmployeeDTO {
         this.entDate = entDate;
         this.entYn = entYn;
         this.jobCode = jobCode;
+        this.phone = phone;
     }
 
     private String empId;
@@ -48,6 +49,15 @@ public class EmployeeDTO {
     private String entYn;
 
     private String jobCode;
+    private String phone;
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
 
     public String getJobCode() {
         return jobCode;
@@ -169,6 +179,7 @@ public class EmployeeDTO {
                 ", entDate=" + entDate +
                 ", entYn='" + entYn + '\'' +
                 ", jobCode='" + jobCode + '\'' +
+                ", phone='" + phone + '\'' +
                 '}';
     }
 }

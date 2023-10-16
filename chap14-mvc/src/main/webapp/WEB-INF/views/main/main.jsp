@@ -22,7 +22,7 @@
     <button onclick="location.href='${pageContext.servletContext.contextPath}/employee/list'">직원 전체 조회하기</button>
     <hr/>
 
-    <form action="'${pageContext.servletContext.contextPath}'/employee/insert" method="post">
+    <form action="${pageContext.servletContext.contextPath}employee/insert" method="post">
         직원명 : <input type="text" name="empName"/> <br/>
         주민등록번호<input type="text" name="empNo"/> <br/>
         이메일 : <input type="email" name="email"/>  <br/>
@@ -53,9 +53,23 @@
     <br>
      급여:<input type="number" name="salary"/> <br>
      보너스율 : <input type="text" name="bonus"/> <br>
-     관리자 사번 : <input type="date" name="hireDate"> <br>
+     관리자 사번 : <input type="text" name="managerId"/> <br>
+     입사일 : <input type="date" name="hireDate"> <br>
      <button type="submit">등록하기</button>
     </form>
+    <hr>
 
+    <h3>EMPLOYEE 테이블에서 직원 정보 수정(사번과 변경할 정보를 입력 받아 사번과 일치하는 사원의 정보 변경-원하는 데이터변경)
+        /employee/update (post)
+    </h3>
+    <form action="${pageContext.servletContext.contextPath}/employee/update" method="post">
+        <div>
+        사번 : <input type="text" name="empId"/>
+        </div>
+        <div>
+        퇴사일 : <input type="date" name="entDate"/>
+        </div>
+        <button type="submit">직원 퇴사</button>
+    </form>
 </body>
 </html>

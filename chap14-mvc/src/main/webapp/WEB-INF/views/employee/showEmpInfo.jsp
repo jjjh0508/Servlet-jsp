@@ -12,7 +12,8 @@
 </head>
 <body>
   <jsp:include page="../common/header.jsp"/>
-
+  <%--requestScop.속성명(respons의 정의된 속성).(클래스의 경우 필드명)
+      response의 대한 응답은 컨트롤럴에서 대부분 처리한다 (MVC)--%>
   사원 번호 : ${requestScope.selectedEmp.empId} <br>
   사원 명 : ${requestScope.selectedEmp.empName} <br>
   부서코드 : ${requestScope.selectedEmp.deptCode}<br>

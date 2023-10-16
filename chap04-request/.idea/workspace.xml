@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e1d709-a724-4339-9fa7-97da9995b929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/src/main/java/com/ohgiraffers/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/src/main/java/com/ohgiraffers/headers/scetion01/ReqeustHeaderPrintServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/src/main/java/com/ohgiraffers/section02/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap-04-request/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap03-parameter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap03-parameter/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/headers/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap01-life-cycle/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-life-cycle/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap01-life-cycle/src/main/java/com/ohgiraffers/section02/anootation/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-life-cycle/src/main/java/com/ohgiraffers/section02/anootation/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap14-mvc/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap14-mvc/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/DEV/Servlet-jsp/chap03-parameter",
+    "last_opened_file_path": "F:/DEV/Servlet-jsp/chap07-forward",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -187,6 +166,7 @@
       <updated>1687846802580</updated>
       <workItem from="1687846803596" duration="3082000" />
       <workItem from="1687914660669" duration="607000" />
+      <workItem from="1688298929981" duration="153000" />
     </task>
     <servers />
   </component>
